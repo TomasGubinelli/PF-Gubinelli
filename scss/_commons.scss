@@ -1,0 +1,74 @@
+* {
+    font-family: $mainFont;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: $textXl;
+    color: $mainColor
+}
+
+h2 {
+    font-size: $textLg;
+    color: $mainColor;
+    text-align: center;
+}
+
+h3 {
+    font-size: $textLg;
+    color: $mainColor;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+p {
+    font-size: $textMd;
+    line-height: 1.3em;
+    font-weight: $textLight;
+}
+
+header img {
+    width: 100%;
+}
+
+
+.text-blue {
+    color: $colorAlter;
+}
+
+.text-white {
+    color: $white;
+}
+
+.text-center {
+    text-align: center;
+    padding: 10px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text.right {
+    text-align: right;
+}
+
+
+footer {
+    background-color: $secondaryColor;
+    padding: 8px 30px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    svg {
+        width: 30px;
+        height: 30px;
+        fill: $colorAlter;
+        margin-right: 10px;
+    }
+}

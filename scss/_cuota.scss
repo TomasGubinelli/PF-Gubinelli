@@ -1,0 +1,26 @@
+$background-color_1: rgb(179, 179, 243);
+
+/*Valor cuota*/
+.cuota {
+    background-color: $background-color_1;
+    border: solid 1px blue;
+    box-shadow: 0 0 20px 0 rgb(115, 115, 244);
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    text-align: left;
+    line-height: 30px;
+}
+
+.requisitos {
+    background-color: $background-color_1;
+    padding: 20px;
+    border: solid 1px $colorAlter;
+    box-shadow: 0 0 20px 0 rgb(115, 115, 244);
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 30px;
+}

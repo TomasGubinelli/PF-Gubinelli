@@ -1,0 +1,133 @@
+$background-color_1: rgb(125, 157, 217);
+$background-color_2: rgb(179, 170, 243);
+$background-color_3: rgb(179, 179, 243);
+
+.actividades {
+    background-color: $background-color_1;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    padding: 30px;
+    border: double 1px $white;
+    overflow: auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.escuelita {
+    background-color: $background-color_2;
+    border: solid 1px $colorAlter;
+    box-shadow: 0 0 20px 0 white;
+    width: 20%;
+    padding: 30px;
+    margin-right: 35px;
+    margin-bottom: 50px;
+}
+
+.premini {
+    background-color: $background-color_2;
+    border: solid 1px $colorAlter;
+    box-shadow: 0 0 20px 0 $white;
+    width: 20%;
+    padding: 30px;
+    margin-right: 35px;
+    margin-bottom: 50px;
+}
+
+.mini {
+    background-color: $background-color_2;
+    border: solid 1px $colorAlter;
+    box-shadow: 0 0 20px 0 $white;
+    width: 20%;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.contenedor-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.u13 {
+    background-color: $background-color_2;
+    border: solid 1px $colorAlter;
+    box-shadow: 0 0 20px 0 $white;
+    width: 20%;
+    padding: 30px;
+    margin-right: 35px;
+    margin-bottom: 50px;
+}
+
+.u15 {
+    background-color: $background-color_2;
+    border: solid 1px $colorAlter;
+    box-shadow: 0 0 20px 0 $white;
+    width: 20%;
+    padding: 30px;
+    margin-right: 35px;
+    margin-bottom: 50px;
+}
+
+.u17 {
+    background-color: $background-color_2;
+    border: solid 1px $colorAlter;
+    box-shadow: 0 0 20px 0 $white;
+    width: 20%;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.contenedor-3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.u19 {
+    background-color: $background-color_2;
+    border: solid 1px $colorAlter;
+    box-shadow: 0 0 20px 0 $white;
+    width: 20%;
+    padding: 30px;
+    margin-right: 35px;
+    margin-bottom: 50px;
+}
+
+.primera {
+    background-color: $background-color_2;
+    border: solid 1px $colorAlter;
+    box-shadow: 0 0 20px 0 $white;
+    width: 20%;
+    padding: 30px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+
+.gym {
+    background-color: $background-color_3;
+    border: solid 1px $colorAlter;
+    box-shadow: 0 0 20px 0 $white;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.deportiva {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.tarde {
+    background-color: $background-color_2;
+    border: solid 1px $colorAlter;
+    box-shadow: 0 0 20px 0 $white;
+    width: 20%;
+    padding: 30px;
+    margin-bottom: 35px;
+}
