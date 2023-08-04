@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /bocetos
+
+User-Agent: Googlebot-image
+Disallow: /fuentes
+
+User-Agent:Googlebot
+Disallow: /webmail

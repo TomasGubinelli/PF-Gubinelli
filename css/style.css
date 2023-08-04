@@ -392,6 +392,9 @@ footer svg {
 
 .conteiner {
     padding: 30px;
+    width: 400;
+    height: 250;
+    border: 10px;
 }
 
 @media (width < 700px) {
