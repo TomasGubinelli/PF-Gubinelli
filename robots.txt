@@ -1,3 +1,4 @@
+
 User-Agent: *
 Disallow: /bocetos
 
@@ -6,3 +7,13 @@ Disallow: /fuentes
 
 User-Agent:Googlebot
 Disallow: /webmail
+
+User-agent: *
+Disallow: /bocetos
+
+User-agent:Googlebot-image
+Disallow: /fuentes
+
+User-agent:Googlebot
+Disallow: /webmail
+
